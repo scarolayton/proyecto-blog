@@ -53,3 +53,25 @@ footer {
 .proyect-item a {
   color: #000;
 }
+
+@media screen and (max-width:560px){
+  .principal  {
+    flex-direction: column;
+  }
+  .principal img {
+    width: 60%;
+    height: 50%;
+    margin-right: 0;
+  }
+  .text {
+    width: 70%;
+    text-align: center;
+  }
+  .proyects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .proyect-item {
+    width: 80%;
+  }
+}

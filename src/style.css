@@ -46,7 +46,7 @@ header nav ul li{
 
 .container {
   height: calc(100vh - 150px);
-  background-image: url(/img/background-index.jpg);
+  background-image: url(../img/background-index.jpg);
   color: #fff;
   background-position: center;
   background-size: cover;
@@ -68,4 +68,26 @@ header nav ul li{
   border: solid 1px #fff;
   color: #000;
   background-color: #59cfad;  
+}
+
+
+@media screen and (max-width:425px){
+  header nav {
+    text-align: center;
+    font-size: 25px;
+    
+  }
+  header nav ul li {
+    margin-right: 5px;
+  }
+  .buttons {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .buttons img {
+    width: 200px;
+  }
+  .container h1 {
+    width: 80%;
+  }
 }

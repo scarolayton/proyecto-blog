@@ -90,3 +90,32 @@ footer {
   margin: auto;
   padding-top: 20px;
 }
+
+@media screen and (max-width:560px){
+    .principal {
+      flex-direction: column;
+      height: 800px;
+      
+    }
+    .image {
+      width: 90%;
+    }
+    .text {
+      width: 80%;
+    }
+    .blog-post_container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:380px){
+  .principal {
+    height: 900px;
+  }
+  .image {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+  }
+}

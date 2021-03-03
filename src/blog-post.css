@@ -37,3 +37,12 @@ footer {
   width: 60%;
   margin: auto;
 }
+
+@media screen and (max-width:560px) {
+  .principal-img {
+    height: 300px;
+  }
+  .text {
+    width: 80%;
+  }
+}
