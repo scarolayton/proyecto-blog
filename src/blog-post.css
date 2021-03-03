@@ -1,0 +1,39 @@
+
+footer {
+  margin-top: 100px;
+}
+
+.footer-separate {
+  background-color: #59cfad;
+  width: 100%;
+  height: 40px;
+}
+
+.footer-text {
+  text-align: center;
+  color: #fff;
+  background-color: rgb(66, 63, 63);
+  height: 60px;
+}
+
+.footer-text p {
+  margin: auto;
+  padding-top: 20px;
+}
+
+
+.principal-img {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+
+.principal-img img {
+  width: 100%;
+  height: 100%;   
+}
+
+.text {
+  width: 60%;
+  margin: auto;
+}
